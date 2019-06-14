@@ -14,6 +14,7 @@ ENV PATH=$JAVA_HOME/bin:$PATH
 
 
 MAINTAINER Xianyi Ye <https://cn.linkedin.com/in/yexianyi>
+ADD https://api.github.com/repos/yexianyi/docker-springcloud-eureka-provider/git/refs/heads/master version.json
 
 RUN yum update -y \
 	&& yum install -y maven \ 
